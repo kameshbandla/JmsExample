@@ -27,6 +27,7 @@ public class Listener {
 	public void receive() {
 		String message = (String) jmsTemplate.receiveAndConvert(destinationQueue);
 		System.out.println("--------------MESSAGE RECEIVED--------" + message);
+		System.out.println("This is kameshbandla added");
 	}
 
 }
